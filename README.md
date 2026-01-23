@@ -63,4 +63,4 @@ curl -X POST http://localhost:8080/properties \
   }' | jq
 ```
 
-Open [http://localhost:8080/jobs](http://localhost:8080/properties) in your browser to view all jobs.
+Open [http://localhost:8080/properties](http://localhost:8080/properties) in your browser to view all jobs.

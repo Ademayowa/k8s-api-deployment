@@ -1,3 +1,5 @@
+// Test for creating a new property - Test POST /properties endpoint
+
 package test
 
 import (

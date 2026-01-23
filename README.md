@@ -33,16 +33,22 @@ git clone https://github.com/Ademayowa/k8s-api-deployment.git
 go mod tidy
 ```
 
-### 2. Create a database on Supabase or any other PostgreSQL DB & get the connection strings.
+### 2. Create a database on Supabase or any other PostgreSQL DB & get the connection strings. Create an env file and paste the value of your connection strings into the DATABASE_URL=
 
-### 3. Test the endpoint
+### 3. In the root, run
+
+```bash
+go run cmd/main.go
+```
+
+### 4. Open another terminal & test the endpoint
 
 ```bash
 curl -X POST http://localhost:8080/properties \
   -H "Content-Type: application/json" \
   -d '{
-    "title": "Rent a two bedreeom in Lisbon",
-    "description": "Rent a cool two bedrrom in Lisbon",
+    "title": "Rent a two bedroom in Lisbon",
+    "description": "Rent a cool two bedroom in Lisbon",
     "type": "apartment",
     "status": "for_rent",
     "price": 3000000,
@@ -54,7 +60,7 @@ curl -X POST http://localhost:8080/properties \
       "https://example.com/images/property1_1.jpg",
       "https://example.com/images/property1_2.jpg"
     ]
-  }' | jq
+  }'
 ```
 
 Open [http://localhost:8080/properties](http://localhost:8080/properties) in your browser to view all jobs.

@@ -1,5 +1,3 @@
-// Test for retrieving all properties - Test GET /properties endpoint
-
 package test
 
 import (
@@ -14,6 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// Test for retrieving all properties - Test GET /properties endpoint
 func TestGetProperties(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 

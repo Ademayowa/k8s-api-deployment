@@ -1,5 +1,3 @@
-// Test for retrieving a single property - Test GET /properties/:id endpoint
-
 package test
 
 import (
@@ -14,6 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// Test for retrieving a single property - Test GET /properties/:id endpoint
 func TestGetProperty(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 

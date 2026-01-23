@@ -1,5 +1,3 @@
-// Test for creating a new property - Test POST /properties endpoint
-
 package test
 
 import (
@@ -17,6 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// Test for creating a new property - Test POST /properties endpoint
 func TestCreateProperty(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 

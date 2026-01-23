@@ -1,4 +1,4 @@
-# Backend APIs for Go</h2>
+# Go Backend APIs for Real Estate App</h2>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 

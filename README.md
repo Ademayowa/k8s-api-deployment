@@ -1,4 +1,4 @@
-# Kubernetes deployment for a Go REST API</h2>
+# Backend APIs for Go</h2>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -6,12 +6,6 @@
 - PostgreSQL
 - Gin
 - Docker
-- Helm
-- Kubernetes
-- Terraform
-- Prometheus
-- Grafana
-- Cloud infrastructure on Scaleway
 
 ## <a name="quick-start">🤸 Quick Start</a>
 

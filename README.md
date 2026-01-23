@@ -41,7 +41,7 @@ go mod tidy
 
 ### 2. Create a database on Supabase or any other PostgreSQL DB & get the connection strings.
 
-### 3. Test the endpoint
+### 3. Test the endpoint.
 
 ```bash
 curl -X POST http://localhost:8080/properties \

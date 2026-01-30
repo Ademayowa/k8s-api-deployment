@@ -1,4 +1,4 @@
-# Kubernetes deployment for a Go REST API</h2>
+# Implementing Helm into a backend application</h2>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -7,11 +7,6 @@
 - Gin
 - Docker
 - Helm
-- Kubernetes
-- Terraform
-- Prometheus
-- Grafana
-- Cloud infrastructure on Scaleway
 
 ## <a name="quick-start">🤸 Quick Start</a>
 

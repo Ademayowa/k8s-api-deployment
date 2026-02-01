@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: real-estate-config
-  namespace: app
-data:
-  GIN_MODE: "release"

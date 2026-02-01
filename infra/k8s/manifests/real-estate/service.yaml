@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: real-estate-api-service
-  namespace: app
+  namespace: dev-real-estate
 spec:
   type: NodePort
   selector:

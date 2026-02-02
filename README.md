@@ -9,9 +9,6 @@
 - Helm
 - Kubernetes
 - Terraform
-- Prometheus
-- Grafana
-- Cloud infrastructure on Scaleway
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -60,7 +57,7 @@ curl -X POST http://localhost:8080/properties \
       "https://example.com/images/property1_1.jpg",
       "https://example.com/images/property1_2.jpg"
     ]
-  }' | jq
+  }'
 ```
 
 Open [http://localhost:8080/properties](http://localhost:8080/properties) in your browser to view all jobs.

@@ -19,6 +19,11 @@ service:
 
 namespace: dev-real-estate
 
+ingress:
+  enabled: true
+  host: # Add your host
+  tlsSecretName: # Add your TLS secret name
+
 config:
   ginMode: debug # Development mode uses "debug" for the GIN framework
 

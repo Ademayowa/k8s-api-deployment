@@ -4,6 +4,8 @@
 # State files
 *.tfstate
 *.tfstate.*
+*.terraform.lock.hcl
+
 
 # Crash logs
 crash.log
@@ -31,6 +33,3 @@ terraform.rc
 # Kubeconfig
 kubeconfig
 *.kubeconfig
-
-# Lock file (commit this)
-!.terraform.lock.hcl

@@ -18,7 +18,11 @@ resource "scaleway_k8s_cluster" "main" {
 
   private_network_id = scaleway_vpc_private_network.k8s.id
 
-  delete_additional_resources = true # Delete associated resources on cluster deletion
+  # Delete associated resources on cluster deletion
+  delete_additional_resources = true
+
+  # Explicitly set the project
+  project_id = var.project_id
 }
 
 resource "scaleway_k8s_pool" "main" {

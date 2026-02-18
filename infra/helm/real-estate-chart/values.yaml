@@ -32,14 +32,14 @@ resources:
 
 livenessProbe:
   httpGet:
-    path: /healthz
+    path: /health
     port: 8080
   initialDelaySeconds: 15
   periodSeconds: 10
 
 readinessProbe:
   httpGet:
-    path: /healthz
+    path: /ready
     port: 8080
   initialDelaySeconds: 5
   periodSeconds: 5

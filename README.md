@@ -48,7 +48,7 @@ docker-compose up -d
 curl -X POST http://localhost:8080/properties \
   -H "Content-Type: application/json" \
   -d '{
-    "title": "Rent a two bedreeom in Lisbon",
+    "title": "Rent a two bedroom in Lisbon",
     "description": "Rent a cool two bedroom in Lisbon",
     "type": "apartment",
     "status": "for_rent",

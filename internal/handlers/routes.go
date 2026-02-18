@@ -27,6 +27,7 @@ func RegisterRoutes(server *gin.Engine) {
 	server.POST("/properties", CreateProperty)
 	server.GET("/properties/:id", GetProperty)
 
-	// Health check endpoint
-	server.GET("/healthz", healthCheck)
+	// Health check endpoints
+	server.GET("/health", HealthCheck)
+	server.GET("/ready", ReadinessCheck)
 }

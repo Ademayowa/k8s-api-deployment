@@ -1,5 +1,7 @@
 # Kubernetes deployment for a Go REST API</h2>
 
+## This is the boilerplate for the ArgoCD Terraform bootstrap which makes the entire platform reproducible. You avoid manual kubectl installations
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Go

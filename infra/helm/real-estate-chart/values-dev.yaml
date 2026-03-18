@@ -8,7 +8,7 @@ strategy:
     maxUnavailable: 0
 
 image:
-  repository: mayorstacks/real-estate-backend
+  repository: your_dockerhub_handle/real-estate-backend
   tag: v1.0.1
   pullPolicy: IfNotPresent
 

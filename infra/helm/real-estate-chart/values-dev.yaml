@@ -9,7 +9,7 @@ strategy:
 
 image:
   repository: your_dockerhub_handle/real-estate-backend
-  tag: v1.0.1
+  tag: v1.0.0
   pullPolicy: IfNotPresent
 
 service:
